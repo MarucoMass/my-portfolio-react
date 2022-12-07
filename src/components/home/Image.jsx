@@ -8,7 +8,8 @@ const Image = ({ image }) => (
       alt={image.alt}
       height={image.height}
       src={image.src} // use normal <img> attributes as props
-      width={image.width} />
+      width={image.width}
+      placeholder={image.height} />
   </div>
 );
 
