@@ -26,6 +26,7 @@
     object-fit: cover;
     display: block;
     animation: blob 5s linear infinite;
+    margin-bottom: 2rem;
 }
 @keyframes blob {
     0%, 100%{

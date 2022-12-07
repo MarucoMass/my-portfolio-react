@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css';
-import SkillsList from './SkillsList';
+import List from './List';
 import { motion } from 'framer-motion';
 
 const Skills = () => {
@@ -17,15 +17,8 @@ const Skills = () => {
           <div className="skills__data ">
             <h3 className="skills__description">These are the tools and technologies I use for my projects.</h3>
                   
-            <div className="skills__container grid">
-              {SkillsList.map((elem) => {
-                return(
-                  <div className="skills__thumbnail" key={elem.id}>
-                    <img src={elem.image} alt="skill" />
-                  </div>
-                )
-              })}
-            </div>
+            <List/>
+
           </div>
       </section>
     </motion.div>

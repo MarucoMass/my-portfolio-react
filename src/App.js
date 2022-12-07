@@ -5,7 +5,7 @@ import Particle from './components/particles/Particle';
 import AnimatedRoutes from './components/routes/AnimatedRoutes';
 function App() {
   return (
-    <div >
+    <div className='main__container'>
     <BrowserRouter>
       <Sidebar />
       <main>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Robot from '../../assets/robot-cloud.svg';
 import HomeSocials from './HomeSocials';
+import Image from './Image';
 import './home.css';
 import { motion } from 'framer-motion';
 
@@ -24,6 +25,7 @@ const Home = () => {
           </div>
           <div className="home__img-container">
             <img src={Robot} alt='robot saying hello' className='home__img'/>
+            <Image image={Robot} className='home__img'/>
           </div>
       </section>
     </motion.div>

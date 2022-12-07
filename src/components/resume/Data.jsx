@@ -67,7 +67,7 @@ const Data = [
       id: 9,
       category: "education",
       icon: "icon-graduation",
-      year: "2014 - 2019",
+      year: "2014 - 2020",
       title: "Advanced student in Law school (Abandoned)",
       entity: "Universidad Nacional de Rosario",
     },
@@ -81,6 +81,14 @@ const Data = [
     },
     {
       id: 11,
+      category: "experience",
+      icon: "icon-briefcase",
+      year: "July 2021 - October 2021",
+      title: "Strangebox",
+      entity: "Games and pwas website we developed with a colleague",
+    },
+    {
+      id: 12,
       category: "experience",
       icon: "icon-briefcase",
       year: "March 2018 - November 2019",

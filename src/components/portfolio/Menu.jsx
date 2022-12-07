@@ -31,13 +31,12 @@ const Menu = [
     },
     {
       id: 3,
-      image: Musmanno,
-      title: "Musmanno Rock Festival",
-      category: "Courses",
-      code: "https://github.com/MarucoMass/Mangueras-Musmanno-Rock-Festival.git",
-      demo: "https://mariomass.com.ar/musmanno/"
+      image: Strangebox,
+      title: "Strangebox",
+      category: "Personal",
+      code:"https://mariomass.com.ar/strangebox/",
+      demo:"https://mariomass.com.ar/strangebox/"
     },
-    ,
     {
       id: 4,
       image: Irupe,
@@ -105,11 +104,11 @@ const Menu = [
     },
     {
       id: 12,
-      image: Strangebox,
-      title: "Strangebox",
-      category: "Personal",
-      code:"https://mariomass.com.ar/strangebox/",
-      demo:"https://mariomass.com.ar/strangebox/"
+      image: Musmanno,
+      title: "Musmanno Rock Festival",
+      category: "Courses",
+      code: "https://github.com/MarucoMass/Mangueras-Musmanno-Rock-Festival.git",
+      demo: "https://mariomass.com.ar/musmanno/"
     },
   ];
 

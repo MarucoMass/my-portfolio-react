@@ -48,7 +48,6 @@ textarea{
     font-size: var(--fs-text-regular);
 }
 body{
-    background-color: var(--color-lighter-blue);
     background-color: var(--bg-body);
     color: var(--color-text);
     line-height: 1.7;
@@ -78,14 +77,14 @@ img{
 /* reusable classes */
 .container{
     max-width: 1080px;
-    padding: 20px 15px;
+    padding: 15px 20px;
     margin: auto;
 }
 .grid{
     display: grid;
 }
 .section{
-    padding-top: 7rem;
+    padding-top: 6rem;
     padding-bottom: 4rem;
 }
 .section__title{
