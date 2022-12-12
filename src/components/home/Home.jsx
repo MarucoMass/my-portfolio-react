@@ -1,7 +1,7 @@
 import React from 'react'
-import Robot from '../../assets/robot-cloud.svg';
+import Robot from '../../assets/robot-cloud.png';
 import HomeSocials from './HomeSocials';
-import Image from './Image';
+import Image from '../Image/Image';
 import './home.css';
 import { motion } from 'framer-motion';
 
