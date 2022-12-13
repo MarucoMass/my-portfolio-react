@@ -24,3 +24,5 @@ jobs:
         run: npm run format
       - name: Lint files
         run: npm run lint
+      - name: Testing
+        run: npm run test
