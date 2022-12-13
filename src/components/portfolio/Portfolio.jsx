@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import Menu from './Menu';
 import './portfolio.css';
+import { motion } from 'framer-motion';
 
 function Portfolio() {
 	const [items, setItems] = useState(Menu);
