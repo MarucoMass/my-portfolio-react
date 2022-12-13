@@ -1,24 +1,24 @@
-.skills__container{
-    margin-top: 4rem;
-    grid-template-columns: repeat(auto-fit, minmax(4rem, 8rem));
-    justify-content: center;
-    /* gap: 2.5rem; */
+.skills__container {
+	margin-top: 4rem;
+	grid-template-columns: repeat(auto-fit, minmax(4rem, 8rem));
+	justify-content: center;
+	/* gap: 2.5rem; */
 }
 
-.skills__description{
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-500);
-    line-height: 2rem;
+.skills__description {
+	font-size: var(--fs-h3);
+	font-weight: var(--fw-500);
+	line-height: 2rem;
 }
 
-.skills__thumbnail{
-    margin: auto;
-    font-size: 4rem;
-    max-width: 70px;
+.skills__thumbnail {
+	margin: auto;
+	font-size: 4rem;
+	max-width: 70px;
 }
 
 @media (min-width: 589px) {
-    .skills__container{
-        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-    }
+	.skills__container {
+		grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	}
 }

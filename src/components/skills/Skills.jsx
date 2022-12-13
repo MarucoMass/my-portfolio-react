@@ -1,28 +1,28 @@
-import React from 'react'
+import React from 'react';
 import './skills.css';
-import List from './List';
 import { motion } from 'framer-motion';
+import List from './List';
 
-const Skills = () => {
-  return (
-    <motion.div
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    exit={{opacity: 0}}
-    transition={{duration: 0.7, ease:'easeOut'}}
-  >
-      <section className="skills container section">   
-          <h2 className="section__title">My skills</h2>
+function Skills() {
+	return (
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+			transition={{ duration: 0.7, ease: 'easeOut' }}>
+			<section className='skills container section'>
+				<h2 className='section__title'>My skills</h2>
 
-          <div className="skills__data ">
-            <h3 className="skills__description">These are the tools and technologies I use for my projects.</h3>
-                  
-            <List/>
+				<div className='skills__data '>
+					<h3 className='skills__description'>
+						These are the tools and technologies I use for my projects.
+					</h3>
 
-          </div>
-      </section>
-    </motion.div>
-  )
+					<List />
+				</div>
+			</section>
+		</motion.div>
+	);
 }
 
 export default Skills;
