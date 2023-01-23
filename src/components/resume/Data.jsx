@@ -11,7 +11,7 @@ const Data = [
 		id: 2,
 		category: 'education',
 		icon: 'icon-graduation',
-		year: 'October 2022 - Present',
+		year: 'October 2022',
 		title: 'Sé Programar',
 		entity: 'Argentina Programa',
 	},
