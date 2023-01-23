@@ -8,7 +8,8 @@ function Sidebar() {
 
 	return (
 		<>
-			<button type='button'
+			<button
+				type='button'
 				className={toggle ? 'nav__burguer active' : 'nav__burguer'}
 				onClick={() => setToggle(!toggle)}>
 				<i className='icon-menu' />

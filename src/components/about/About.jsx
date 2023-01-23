@@ -37,12 +37,6 @@ function About() {
 								how I can help bring your vision to life. Let's work together to
 								create something truly special.
 							</p>
-							<a
-								href='./resume.pdf'
-								download='Mario Mass resume'
-								className='btn about__button'>
-								Download CV
-							</a>
 						</div>
 					</div>
 				</div>

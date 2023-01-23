@@ -8,43 +8,13 @@
 	font-size: var(--fs-h3);
 	line-height: 2rem;
 }
-.contact__form-group {
-	display: grid;
-	grid-template-columns: 1fr;
-	column-gap: 1.875rem;
-}
-.contact__form-div {
-	position: relative;
-	height: 3.75rem;
-	margin-bottom: 1.875rem;
-}
-.contact__form-input {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: var(--bg-container);
-	border: none;
-	outline: none;
-	box-shadow: var(--box-shadow);
-	color: var(--color-text);
-	border-radius: var(--border-radius);
-	padding: 0.6rem 1.875rem;
-	z-index: 1;
-}
-.contact__form-area {
-	height: 10.5rem;
-}
-.contact__form-area textarea {
-	resize: none;
-}
 .contact__button {
-	margin-top: 6.5rem;
+	max-width: 600px;
+	margin: auto;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
 	.contact__container {
 		grid-template-columns: 5fr 7fr;
 	}
-}
+} */

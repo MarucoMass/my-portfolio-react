@@ -6,7 +6,9 @@ import './portfolio.css';
 function Portfolio() {
 	const [items, setItems] = useState(Menu);
 	const filterItem = itemCategory => {
-		const updateItems = Menu.filter(curlElem => curlElem.category === itemCategory);
+		const updateItems = Menu.filter(
+			curlElem => curlElem.category === itemCategory
+		);
 
 		setItems(updateItems);
 	};
@@ -22,16 +24,28 @@ function Portfolio() {
 					<h2 className='section__title'>Recent works</h2>
 
 					<div className='work__filters'>
-						<button type='button' className='work__item' onClick={() => setItems(Menu)}>
+						<button
+							type='button'
+							className='work__item'
+							onClick={() => setItems(Menu)}>
 							Everything
 						</button>
-						<button type='button' className='work__item' onClick={() => filterItem('Freelance')}>
+						<button
+							type='button'
+							className='work__item'
+							onClick={() => filterItem('Freelance')}>
 							Freelance
 						</button>
-						<button type='button' className='work__item' onClick={() => filterItem('Courses')}>
+						<button
+							type='button'
+							className='work__item'
+							onClick={() => filterItem('Courses')}>
 							Courses
 						</button>
-						<button type='button' className='work__item' onClick={() => filterItem('Personal')}>
+						<button
+							type='button'
+							className='work__item'
+							onClick={() => filterItem('Personal')}>
 							Personal
 						</button>
 					</div>

@@ -19,48 +19,11 @@ function Contact() {
 						</h3>
 					</div>
 
-					<form action='' className='contact__form'>
-						<div className='contact__form-group'>
-							<div className='contact__form-div'>
-								<input
-									type='text'
-									className='contact__form-input'
-									placeholder='Write your name'
-								/>
-							</div>
-
-							<div className='contact__form-div'>
-								<input
-									type='email'
-									className='contact__form-input'
-									placeholder='Write your email'
-								/>
-							</div>
-
-							<div className='contact__form-div'>
-								<input
-									type='text'
-									className='contact__form-input'
-									placeholder='Write your subject'
-								/>
-							</div>
-
-							<div className='contact__form-div'>
-								<textarea
-									name=''
-									cols='30'
-									rows='10'
-									className='contact__form-input contact__form-area'
-									placeholder='Write your message' />
-							</div>
-						</div>
-
-						<input
-							type='button'
-							className='btn contact__button'
-							value='Send message'
-						/>
-					</form>
+					<a
+						href='mailto:mariomass23@gmail.com'
+						className='btn contact__button'>
+						Send me an email
+					</a>
 				</div>
 			</section>
 		</motion.div>

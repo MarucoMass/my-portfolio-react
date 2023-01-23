@@ -5,7 +5,6 @@ import Robot from '../../assets/robot-cloud.png';
 import HomeSocials from './HomeSocials';
 import './home.css';
 
-
 function Home() {
 	return (
 		<motion.div

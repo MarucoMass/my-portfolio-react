@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Card (props) {
-	const {icon, year, title, entity} = props;
+function Card(props) {
+	const { icon, year, title, entity } = props;
 	return (
 		<div className='timeline__item'>
 			<i className={icon} />

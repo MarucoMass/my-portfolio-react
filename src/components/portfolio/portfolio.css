@@ -65,7 +65,7 @@
 		justify-content: flex-start;
 		column-gap: 1.875rem;
 	}
-	.work__item{
+	.work__item {
 		font-size: var(--fs-text-regular);
 	}
 }
