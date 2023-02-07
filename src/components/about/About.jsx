@@ -1,8 +1,7 @@
-/* eslint-disable global-require */
 import React from 'react';
 import './about.css';
 import { motion } from 'framer-motion';
-// import Photo from '../../assets/photo.jpg';
+import Photo from '../../assets/photo.jpg';
 
 function About() {
 	return (
@@ -17,7 +16,7 @@ function About() {
 
 					<div className='about__container grid'>
 						<div className='about__container--img'>
-							<img src={require('../../assets/photo.jpg')} alt='me' className='about__img' />
+							<img src={Photo} alt='me' className='about__img' />
 						</div>
 
 						<div className='about__data '>
