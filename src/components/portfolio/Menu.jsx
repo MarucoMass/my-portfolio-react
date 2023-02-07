@@ -35,7 +35,7 @@ const Menu = [
 	{
 		id: 3,
 		image: Scramble,
-		title: 'Scramble Game',
+		title: 'Word Scramble Game',
 		category: 'Personal',
 		code: 'https://github.com/MarucoMass/scramble.git',
 		demo: 'https://mariomass.com.ar/scramble/',
