@@ -11,6 +11,7 @@
 	font-weight: var(--fw-700);
 	transition: 0.3s linear;
 	font-size: 0.9rem;
+	margin-block: 5px;
 }
 .work__item:hover {
 	color: var(--color-light-blue);

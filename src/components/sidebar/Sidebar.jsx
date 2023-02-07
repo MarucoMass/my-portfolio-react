@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/logotype.svg';
@@ -7,14 +8,12 @@ function Sidebar() {
 	const [toggle, setToggle] = useState(false);
 
 	return (
+		// eslint-disable-next-line react/jsx-no-comment-textnodes
 		<>
 			<button
 				type='button'
 				className={toggle ? 'nav__burguer active' : 'nav__burguer'}
-				onClick={() => setToggle(!toggle)}>
-				<i className='icon-menu' />
-			</button>
-
+				onClick={() => setToggle(!toggle)} />
 			<aside className='aside'>
 				<NavLink className='aside_logo' to='/'>
 					<img src={Logo} alt='logo' />
@@ -76,7 +75,7 @@ function Sidebar() {
 				</nav>
 
 				<div className='nav__footer'>
-					<span className='copyright'>&copy; Mario Mass 2022-2023</span>
+					<span className='copyright'>&copy; Mario Mass 2023</span>
 				</div>
 			</aside>
 		</>

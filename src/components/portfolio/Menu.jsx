@@ -11,10 +11,37 @@ import Clock from '../../assets/reloj.jpg';
 import Game from '../../assets/game.jpg';
 import Strangebox from '../../assets/strangebox.jpg';
 import OldPortfolio from '../../assets/old-portfolio.jpg';
+import Rpa from '../../assets/rpa.jpg';
+import Scramble from '../../assets/scramble.jpg';
+import Piano from '../../assets/piano.jpg';
 
 const Menu = [
 	{
 		id: 1,
+		image: Rpa,
+		title: 'Rpa-Works',
+		category: 'Freelance',
+		code: 'https://github.com/MarucoMass/rpa-works.git',
+		demo: 'https://rpa-works.com',
+	},
+	{
+		id: 2,
+		image: Piano,
+		title: 'Tiny Piano',
+		category: 'Personal',
+		code: 'https://github.com/MarucoMass/piano.git',
+		demo: 'https://mariomass.com.ar/piano/',
+	},
+	{
+		id: 3,
+		image: Scramble,
+		title: 'Scramble Game',
+		category: 'Personal',
+		code: 'https://github.com/MarucoMass/scramble.git',
+		demo: 'https://mariomass.com.ar/scramble/',
+	},
+	{
+		id: 4,
 		image: Pedal,
 		title: 'Pedal Store',
 		category: 'Courses',
@@ -22,7 +49,7 @@ const Menu = [
 		demo: 'https://mariomass-pedal-store.netlify.app/',
 	},
 	{
-		id: 2,
+		id: 5,
 		image: Musicasa,
 		title: 'Musicasa',
 		category: 'Courses',
@@ -30,7 +57,7 @@ const Menu = [
 		demo: 'https://mariomass.com.ar/musicasa/',
 	},
 	{
-		id: 3,
+		id: 6,
 		image: Strangebox,
 		title: 'Strangebox',
 		category: 'Personal',
@@ -38,7 +65,7 @@ const Menu = [
 		demo: 'https://mariomass.com.ar/strangebox/',
 	},
 	{
-		id: 4,
+		id: 7,
 		image: Irupe,
 		title: 'Flor de Irupé',
 		category: 'Freelance',
@@ -47,7 +74,7 @@ const Menu = [
 	},
 	,
 	{
-		id: 5,
+		id: 8,
 		image: Fp,
 		title: 'Frente Patria',
 		category: 'Freelance',
@@ -55,7 +82,7 @@ const Menu = [
 		demo: 'https://www.frentepatriafder.com/',
 	},
 	{
-		id: 6,
+		id: 9,
 		image: OldPortfolio,
 		title: 'My old portfolio',
 		category: 'Personal',
@@ -63,7 +90,7 @@ const Menu = [
 		demo: 'https://marucomass.github.io/old-portfolio/',
 	},
 	{
-		id: 7,
+		id: 10,
 		image: Calendar,
 		title: 'Calendar',
 		category: 'Personal',
@@ -71,7 +98,7 @@ const Menu = [
 		demo: 'https://marucomass.github.io/calendar/',
 	},
 	{
-		id: 8,
+		id: 11,
 		image: Calculator,
 		title: 'Calculator',
 		category: 'Personal',
@@ -79,7 +106,7 @@ const Menu = [
 		demo: 'https://mariomass.com.ar/calculadora/',
 	},
 	{
-		id: 9,
+		id: 12,
 		image: Expense,
 		title: 'Expense-Tracker',
 		category: 'Personal',
@@ -87,7 +114,7 @@ const Menu = [
 		demo: 'https://mariomass.com.ar/expense-tracker/',
 	},
 	{
-		id: 10,
+		id: 13,
 		image: Clock,
 		title: 'Clock',
 		category: 'Personal',
@@ -95,7 +122,7 @@ const Menu = [
 		demo: 'https://mariomass.com.ar/reloj/',
 	},
 	{
-		id: 11,
+		id: 14,
 		image: Game,
 		title: 'Rock, Scissors and Paper',
 		category: 'Personal',
@@ -103,7 +130,7 @@ const Menu = [
 		demo: 'https://marucomass.github.io/piedra-papel-o-tijeras/',
 	},
 	{
-		id: 12,
+		id: 15,
 		image: Musmanno,
 		title: 'Musmanno Rock Festival',
 		category: 'Courses',
