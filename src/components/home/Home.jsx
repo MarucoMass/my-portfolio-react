@@ -1,7 +1,8 @@
+/* eslint-disable global-require */
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import Robot from '../../assets/robot-cloud.png';
+// import Robot from '../../assets/robot-cloud.png';
 import HomeSocials from './HomeSocials';
 import './home.css';
 
@@ -27,7 +28,7 @@ function Home() {
 					</Link>
 				</div>
 				<div className='home__img-container'>
-					<img src={Robot} alt='robot saying hello' className='home__img' />
+					<img src={require('../../assets/robot-cloud.png')} alt='robot saying hello' className='home__img' />
 				</div>
 			</section>
 		</motion.div>
