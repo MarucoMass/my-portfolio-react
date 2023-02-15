@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.9b080dc8.css",
-    "main.js": "./static/js/main.6c6ef5a4.js",
+    "main.js": "./static/js/main.fd9a025a.js",
     "static/js/787.fe039db8.chunk.js": "./static/js/787.fe039db8.chunk.js",
     "static/media/photo.jpg": "./static/media/photo.ae1a0478383507e77bd0.jpg",
     "static/media/musmanno.jpg": "./static/media/musmanno.6a53264b52a70521ea29.jpg",
@@ -9,7 +9,6 @@
     "static/media/robot-cloud.png": "./static/media/robot-cloud.06402e19a26f5ac54cfc.png",
     "static/media/fp.jpg": "./static/media/fp.cbbfd2ed452fcd4a3c1f.jpg",
     "static/media/pedalstore.jpg": "./static/media/pedalstore.25472faa7577c03d0175.jpg",
-    "static/media/rpa.jpg": "./static/media/rpa.9f6f06d10ab5685adb6b.jpg",
     "static/media/musicasa.jpg": "./static/media/musicasa.aba66d561a0cb744551e.jpg",
     "static/media/old-portfolio.jpg": "./static/media/old-portfolio.767e575cc155091675da.jpg",
     "static/media/strangebox.jpg": "./static/media/strangebox.961c1afff36d24bf1e3e.jpg",
@@ -25,11 +24,11 @@
     "index.html": "./index.html",
     "static/media/logotype.svg": "./static/media/logotype.1588c0255b31bd983dc400db8c5d4615.svg",
     "main.9b080dc8.css.map": "./static/css/main.9b080dc8.css.map",
-    "main.6c6ef5a4.js.map": "./static/js/main.6c6ef5a4.js.map",
+    "main.fd9a025a.js.map": "./static/js/main.fd9a025a.js.map",
     "787.fe039db8.chunk.js.map": "./static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b080dc8.css",
-    "static/js/main.6c6ef5a4.js"
+    "static/js/main.fd9a025a.js"
   ]
 }
