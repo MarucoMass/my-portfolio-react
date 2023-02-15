@@ -79,14 +79,14 @@ const Data = [
 		title: 'Web development coordinator and trainer',
 		entity: 'Junior Achievement',
 	},
-	{
-		id: 11,
-		category: 'experience',
-		icon: 'icon-briefcase',
-		year: '2023 - Present',
-		title: 'Web developer',
-		entity: 'Efecto Digital',
-	},
+	// {
+	// 	id: 11,
+	// 	category: 'experience',
+	// 	icon: 'icon-briefcase',
+	// 	year: '2023 - Present',
+	// 	title: 'Web developer',
+	// 	entity: 'Efecto Digital',
+	// },
 	{
 		id: 12,
 		category: 'experience',
