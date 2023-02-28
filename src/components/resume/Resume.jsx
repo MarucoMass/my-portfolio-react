@@ -17,22 +17,7 @@ function Resume() {
 					<h2 className='section__title'>Resume</h2>
 
 					<div className='resume__container grid'>
-						<div className='timeline grid'>
-							{Data.map((elem, id) => {
-								if (elem.category === 'education') {
-									return (
-										<Card
-											key={id}
-											icon={elem.icon}
-											title={elem.title}
-											year={elem.year}
-											entity={elem.entity}
-										/>
-									);
-								}
-							})}
-						</div>
-
+					
 						<div className='timeline grid'>
 							{Data.map((elem, index) => {
 								if (elem.category === 'experience') {
@@ -45,7 +30,24 @@ function Resume() {
 											entity={elem.entity}
 										/>
 									);
-								}
+								} return null 
+								 
+							})} 
+						</div>
+
+						<div className='timeline grid'>
+							{Data.map((elem, id) => {
+								if (elem.category === 'education') {
+									return (
+										<Card
+											key={id}
+											icon={elem.icon}
+											title={elem.title}
+											year={elem.year}
+											entity={elem.entity}
+										/>
+									);
+								} return null
 							})}
 						</div>
 					</div>

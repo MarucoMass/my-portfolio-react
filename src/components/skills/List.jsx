@@ -13,6 +13,7 @@ import {
 	faNodeJs,
 	faBootstrap,
 	faFigma,
+	faPhp
 } from '@fortawesome/free-brands-svg-icons';
 import Vsc from '../../assets/vsc.svg';
 import Illustrator from '../../assets/illustrator.svg';
@@ -34,6 +35,9 @@ function List() {
 			</div>
 			<div className='skills__thumbnail'>
 				<FontAwesomeIcon icon={faSass} />
+			</div>
+			<div className='skills__thumbnail'>
+				<FontAwesomeIcon icon={faPhp} />
 			</div>
 			<div className='skills__thumbnail'>
 				<FontAwesomeIcon icon={faJs} />
