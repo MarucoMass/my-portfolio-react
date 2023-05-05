@@ -22,7 +22,7 @@ const Menu = [
 		image: Prospectiva,
 		title: 'Prospectiva',
 		category: 'Work',
-		code: 'https://github.com/MarucoMass/prospectiva-OnePage.git',
+		code: 'https://github.com/MarucoMass/Prospectiva-OnePage.git',
 		demo: 'http://prospectiva.digital/',
 	},
 	{
