@@ -57,6 +57,7 @@
 	object-fit: cover;
 	display: block;
 	width: 100%;
+	max-height: 160px;
 }
 
 @media (min-width: 439px) {
