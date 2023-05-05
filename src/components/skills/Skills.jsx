@@ -15,7 +15,7 @@ function Skills() {
 
 				<div className='skills__data '>
 					<h3 className='skills__description'>
-						These are the tools and technologies I use for my projects.
+						These are the tools and technologies I use to work
 					</h3>
 
 					<List />

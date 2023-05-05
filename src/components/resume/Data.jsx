@@ -3,7 +3,7 @@ const Data = [
 		id: 100,
 		category: 'experience',
 		icon: 'icon-briefcase',
-		year: 'Jan 2023 - Present',
+		year: 'Feb 2023 - Present',
 		title: 'Programming training coordinator and technical facilitator',
 		entity: 'Junior Achievement Santa Fe',
 	},

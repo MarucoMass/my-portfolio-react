@@ -33,8 +33,8 @@ function Portfolio() {
 						<button
 							type='button'
 							className='work__item'
-							onClick={() => filterItem('Freelance')}>
-							Freelance
+							onClick={() => filterItem('Work')}>
+							Work
 						</button>
 						<button
 							type='button'
@@ -73,7 +73,7 @@ function Portfolio() {
 											href={demo}
 											className='work__button btn'
 											target='__blank'>
-											Demo
+											Deployment
 										</a>
 									</div>
 								</div>

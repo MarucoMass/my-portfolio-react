@@ -17,7 +17,7 @@
 	color: var(--color-light-blue);
 }
 .work__container {
-	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 	gap: 1.875rem;
 }
 .work__card {
@@ -41,8 +41,9 @@
 }
 .work__links {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
+	gap: 0.75rem;
 }
 .work__button {
 	font-weight: var(--fw-500);
@@ -68,5 +69,10 @@
 	}
 	.work__item {
 		font-size: var(--fs-text-regular);
+	}
+}
+@media (min-width: 544px) and (max-width: 920px){
+	.work__button {
+		font-size: .75rem;
 	}
 }
