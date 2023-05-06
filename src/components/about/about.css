@@ -27,6 +27,8 @@
 	display: block;
 	animation: blob 5s linear infinite;
 	margin-bottom: 2rem;
+	position: relative;
+	/* z-index: 1000; */
 }
 @keyframes blob {
 	0%,

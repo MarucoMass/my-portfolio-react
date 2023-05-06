@@ -12,11 +12,11 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	transform: translateX(-100%);
-	background-color: var(--bg-container);
-	background-color: var(--color-lighter-blue);
 	background-color: transparent;
-	z-index: 100;
+	z-index: 1000;
 	transition: 0.5s linear;
+	background-color: var(--bg-body);
+	box-shadow: 5px 0 50px rgba(150, 150, 150, 0.3);
 }
 .nav__list {
 	display: flex;
@@ -116,8 +116,8 @@
 
 .nav__burguer.active + .aside {
 	transform: translateX(0);
-	background-color: var(--bg-container);
-	box-shadow: 1px 0 20px rgba(0, 0, 0, 0.2);
+	/* background-color: var(--bg-container);
+	box-shadow: 1px 0 20px rgba(0, 0, 0, 0.2); */
 }
 
 @media (min-width: 1399px) {
