@@ -16,6 +16,7 @@
 	z-index: 1000;
 	transition: 0.5s linear;
 	background-color: var(--bg-body);
+	background-color: #F9F7FF;
 	box-shadow: 5px 0 50px rgba(150, 150, 150, 0.3);
 }
 .nav__list {
