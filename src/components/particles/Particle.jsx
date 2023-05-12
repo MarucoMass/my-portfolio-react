@@ -36,7 +36,7 @@ function Particle() {
 						color: '#70b3ff',
 						distance: 90,
 						enable: true,
-						opacity: .5,
+						opacity: .65,
 						width: 1,
 					},
 					collisions: {

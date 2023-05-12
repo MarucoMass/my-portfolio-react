@@ -1,5 +1,4 @@
 import React from 'react';
-import './animatedroutes.css';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from '../home/Home';
