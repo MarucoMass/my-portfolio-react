@@ -1,6 +1,6 @@
 const Data = [
 	{
-		id: 100,
+		id: 99,
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'Feb 2023 - Present',
@@ -8,7 +8,7 @@ const Data = [
 		entity: 'Junior Achievement Santa Fe',
 	},
 	{
-		id: 101,
+		id: 100,
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'Dec 2022 - Present',
@@ -16,7 +16,7 @@ const Data = [
 		entity: 'Efecto Digital',
 	},
 	{
-		id: 102,
+		id: 101,
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: '2022 - Present',
@@ -24,7 +24,7 @@ const Data = [
 		entity: 'Freelance',
 	},
 	{
-		id: 103,
+		id: 102,
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'July 2021 - October 2021',
@@ -32,12 +32,20 @@ const Data = [
 		entity: 'Games and pwas website we developed with a colleague',
 	},
 	{
-		id: 104,
+		id: 103,
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'March 2018 - November 2019',
 		title: 'Law firm assistant',
 		entity: 'Law firm Badalotti, Cristófaro & Cavallieri',
+	},
+	{
+		id: 104,
+		category: 'education',
+		icon: 'icon-graduation',
+		year: 'April 2023',
+		title: 'JavaScript & jQuery - Certification Course for Beginners',
+		entity: 'YouAccel Training from Udemy',
 	},
 	{
 		id: 105,

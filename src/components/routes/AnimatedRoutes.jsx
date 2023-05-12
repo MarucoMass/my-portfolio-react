@@ -1,4 +1,5 @@
 import React from 'react';
+import './animatedroutes.css';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from '../home/Home';
@@ -12,16 +13,16 @@ function AnimatedRoutes() {
 	const location = useLocation();
 
 	return (
-		<AnimatePresence initial={false} mode='wait'>
-			<Routes location={location} key={location.pathname}>
-				<Route path='/' element={<Home />} />
-				<Route path='/about' element={<About />} />
-				<Route path='/skills' element={<Skills />} />
-				<Route path='/resume' element={<Resume />} />
-				<Route path='/portfolio' element={<Portfolio />} />
-				<Route path='/contact' element={<Contact />} />
-			</Routes>
-		</AnimatePresence>
+			<AnimatePresence initial={false} mode='wait'>
+				<Routes location={location} key={location.pathname}>
+					<Route path='/' element={<Home />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/skills' element={<Skills />} />
+					<Route path='/resume' element={<Resume />} />
+					<Route path='/portfolio' element={<Portfolio />} />
+					<Route path='/contact' element={<Contact />} />
+				</Routes>
+			</AnimatePresence>
 	);
 }
 

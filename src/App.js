@@ -6,15 +6,15 @@ import AnimatedRoutes from './components/routes/AnimatedRoutes';
 
 function App() {
 	return (
-		<div>
+		
 			<BrowserRouter>
-				<Sidebar />
 				<main>
+				<Sidebar />
 					<Particle />
 					<AnimatedRoutes />
 				</main>
 			</BrowserRouter>
-		</div>
+		
 	);
 }
 
