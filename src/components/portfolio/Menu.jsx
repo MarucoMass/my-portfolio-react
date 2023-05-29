@@ -15,8 +15,17 @@ import Rpa from '../../assets/rpa.jpg';
 import Scramble from '../../assets/scramble.jpg';
 import Piano from '../../assets/piano.jpg';
 import Prospectiva from '../../assets/prospectiva.jpg';
+import Plantilla from '../../assets/plantilla.jpg';
 
 const Menu = [
+	{
+		id: 99,
+		image: Plantilla,
+		title: 'Landing Template',
+		category: 'Work',
+		code: 'https://github.com/MarucoMass/Plantilla-Landing.git',
+		demo: 'https://efectodigital.com.ar/plantilla.html',
+	},
 	{
 		id: 100,
 		image: Prospectiva,
