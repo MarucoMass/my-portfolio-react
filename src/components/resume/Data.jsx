@@ -43,7 +43,7 @@ const Data = [
 		id: 104,
 		category: 'education',
 		icon: 'icon-graduation',
-		year: 'April 2023',
+		year: 'May 2023',
 		title: 'Diseño UX: experiencia de usuario UX/UI + Figma 2023',
 		entity: 'Javier Cañas from Udemy',
 	},
