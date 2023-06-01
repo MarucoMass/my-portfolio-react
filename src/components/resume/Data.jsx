@@ -4,7 +4,7 @@ const Data = [
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'Feb 2023 - Present',
-		title: 'Programming training coordinator and technical facilitator',
+		title: 'Coordinator and technical facilitator of "Yo Puedo Programar"',
 		entity: 'Junior Achievement Santa Fe',
 	},
 	{
@@ -12,7 +12,7 @@ const Data = [
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'Dec 2022 - Present',
-		title: 'Developer & Growth Manager',
+		title: 'Developer',
 		entity: 'Efecto Digital',
 	},
 	{
@@ -38,6 +38,14 @@ const Data = [
 		year: 'March 2018 - November 2019',
 		title: 'Law firm assistant',
 		entity: 'Law firm Badalotti, Cristófaro & Cavallieri',
+	},
+	{
+		id: 104,
+		category: 'education',
+		icon: 'icon-graduation',
+		year: 'Jun 2023 - Present',
+		title: 'Tecnicatura Universitaria en Programación',
+		entity: 'Universidad Tecnológica Nacional',
 	},
 	{
 		id: 104,
