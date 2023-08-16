@@ -44,15 +44,15 @@ const Data = [
 		category: 'education',
 		icon: 'icon-graduation',
 		year: 'Jun 2023 - Present',
-		title: 'Tecnicatura Universitaria en Programación',
-		entity: 'Universidad Tecnológica Nacional',
+		title: 'University Degree in Programming',
+		entity: 'National Technological University',
 	},
 	{
 		id: 104,
 		category: 'education',
 		icon: 'icon-graduation',
 		year: 'May 2023',
-		title: 'Diseño UX: experiencia de usuario UX/UI + Figma 2023',
+		title: 'Diseño UX: user experience UX/UI + Figma 2023',
 		entity: 'Javier Cañas from Udemy',
 	},
 	{
@@ -84,7 +84,7 @@ const Data = [
 		category: 'education',
 		icon: 'icon-graduation',
 		year: 'August 2022',
-		title: 'Programación desde cero - Nivel Universidad',
+		title: 'Programming from Scratch - University Level',
 		entity: 'Maxi Programa',
 	},
 	{
