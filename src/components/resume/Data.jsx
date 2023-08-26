@@ -44,8 +44,8 @@ const Data = [
 		category: 'education',
 		icon: 'icon-graduation',
 		year: 'Jun 2023 - Present',
-		title: 'University Degree in Programming',
-		entity: 'National Technological University',
+		title: 'University Program in Programming',
+		entity: 'National University of Technology',
 	},
 	{
 		id: 104,
