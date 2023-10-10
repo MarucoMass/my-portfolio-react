@@ -13,7 +13,7 @@ import Strangebox from '../../assets/strangebox.jpg';
 import OldPortfolio from '../../assets/old-portfolio.jpg';
 import Rpa from '../../assets/rpa.jpg';
 import Scramble from '../../assets/scramble.jpg';
-import Piano from '../../assets/piano.jpg';
+// import Piano from '../../assets/piano.jpg';
 import Prospectiva from '../../assets/prospectiva.jpg';
 import Plantilla from '../../assets/plantilla.jpg';
 
@@ -42,21 +42,21 @@ const Menu = [
 		code: 'https://github.com/MarucoMass/rpa-works.git',
 		demo: 'https://rpa-works.com',
 	},
-	{
-		id: 102,
-		image: Piano,
-		title: 'Tiny Piano',
-		category: 'Personal',
-		code: 'https://github.com/MarucoMass/piano.git',
-		demo: 'https://mariomass.com.ar/piano/',
-	},
+	// {
+	// 	id: 102,
+	// 	image: Piano,
+	// 	title: 'Tiny Piano',
+	// 	category: 'Personal',
+	// 	code: 'https://github.com/MarucoMass/piano.git',
+	// 	demo: 'https://mariomass.com.ar/piano/',
+	// },
 	{
 		id: 103,
 		image: Scramble,
 		title: 'Word Scramble Game',
 		category: 'Personal',
 		code: 'https://github.com/MarucoMass/scramble.git',
-		demo: 'https://mariomass.com.ar/scramble/',
+		demo: 'https://marucomass.github.io/scramble/',
 	},
 	{
 		id: 104,
@@ -72,15 +72,15 @@ const Menu = [
 		title: 'Musicasa',
 		category: 'Courses',
 		code: 'https://github.com/MarucoMass/Musicasa-ecommerce.git',
-		demo: 'https://mariomass.com.ar/musicasa/',
+		demo: 'https://marucomass.github.io/Musicasa-ecommerce/',
 	},
 	{
 		id: 106,
 		image: Strangebox,
 		title: 'Strangebox',
 		category: 'Personal',
-		code: 'https://mariomass.com.ar/strangebox/',
-		demo: 'https://mariomass.com.ar/strangebox/',
+		code: 'https://github.com/MarucoMass/strangebox',
+		demo: 'https://marucomass.github.io/strangebox/',
 	},
 	{
 		id: 107,
@@ -121,7 +121,7 @@ const Menu = [
 		title: 'Calculator',
 		category: 'Personal',
 		code: 'https://github.com/MarucoMass/calculadora.git',
-		demo: 'https://mariomass.com.ar/calculadora/',
+		demo: 'https://marucomass.github.io/calculadora/',
 	},
 	{
 		id: 112,
@@ -129,7 +129,7 @@ const Menu = [
 		title: 'Expense-Tracker',
 		category: 'Personal',
 		code: 'https://github.com/MarucoMass/expense-tracker.git',
-		demo: 'https://mariomass.com.ar/expense-tracker/',
+		demo: 'https://marucomass.github.io/expense-tracker/',
 	},
 	{
 		id: 113,
@@ -137,7 +137,7 @@ const Menu = [
 		title: 'Clock',
 		category: 'Personal',
 		code: 'https://github.com/MarucoMass/reloj.git',
-		demo: 'https://mariomass.com.ar/reloj/',
+		demo: 'https://marucomass.github.io/reloj/',
 	},
 	{
 		id: 114,
@@ -153,7 +153,7 @@ const Menu = [
 		title: 'Musmanno Rock Festival',
 		category: 'Courses',
 		code: 'https://github.com/MarucoMass/Mangueras-Musmanno-Rock-Festival.git',
-		demo: 'https://mariomass.com.ar/musmanno/',
+		demo: 'https://marucomass.github.io/Mangueras-Musmanno-Rock-Festival-Massonnat./',
 	},
 ];
 
