@@ -4,22 +4,27 @@ import Musicasa from '../../assets/musicasa.jpg';
 import Musmanno from '../../assets/musmanno.jpg';
 import Irupe from '../../assets/irupe.jpg';
 import Fp from '../../assets/fp.jpg';
-import Calendar from '../../assets/calendar.jpg';
-import Calculator from '../../assets/calculadora.jpg';
-import Expense from '../../assets/expense.jpg';
-import Clock from '../../assets/reloj.jpg';
-import Game from '../../assets/game.jpg';
 import Strangebox from '../../assets/strangebox.jpg';
-import OldPortfolio from '../../assets/old-portfolio.jpg';
 import Rpa from '../../assets/rpa.jpg';
 import Scramble from '../../assets/scramble.jpg';
-// import Piano from '../../assets/piano.jpg';
 import Prospectiva from '../../assets/prospectiva.jpg';
 import Plantilla from '../../assets/plantilla.jpg';
+import Fintelligence from '../../assets/fintelligence.jpg';
+import CaidaLibre from '../../assets/caidalibre.jpg';
+import TiraTiro from '../../assets/tiratiro.jpg';
+import HastaLasMuelas from '../../assets/drink.jpg';
 
 const Menu = [
 	{
-		id: 99,
+		id: 102,
+		image: Fintelligence,
+		title: 'Fintelligence',
+		category: 'Work',
+		code: 'https://github.com/MarucoMass/fintelligence',
+		demo: 'https://marucomass.github.io/fintelligence/',
+	},
+	{
+		id: 103,
 		image: Plantilla,
 		title: 'Landing Template',
 		category: 'Work',
@@ -27,39 +32,23 @@ const Menu = [
 		demo: 'https://efectodigital.com.ar/plantilla.html',
 	},
 	{
-		id: 100,
+		id: 104,
 		image: Prospectiva,
 		title: 'Prospectiva',
 		category: 'Work',
 		code: 'https://github.com/MarucoMass/Prospectiva-OnePage.git',
-		demo: 'http://prospectiva.digital/',
+		demo: 'http://prospectiva.tech/',
 	},
 	{
-		id: 101,
+		id: 105,
 		image: Rpa,
 		title: 'Rpa-Works',
 		category: 'Work',
 		code: 'https://github.com/MarucoMass/rpa-works.git',
 		demo: 'https://rpa-works.com',
 	},
-	// {
-	// 	id: 102,
-	// 	image: Piano,
-	// 	title: 'Tiny Piano',
-	// 	category: 'Personal',
-	// 	code: 'https://github.com/MarucoMass/piano.git',
-	// 	demo: 'https://mariomass.com.ar/piano/',
-	// },
 	{
-		id: 103,
-		image: Scramble,
-		title: 'Word Scramble Game',
-		category: 'Personal',
-		code: 'https://github.com/MarucoMass/scramble.git',
-		demo: 'https://marucomass.github.io/scramble/',
-	},
-	{
-		id: 104,
+		id: 106,
 		image: Pedal,
 		title: 'Pedal Store',
 		category: 'Courses',
@@ -67,7 +56,7 @@ const Menu = [
 		demo: 'https://mariomass-pedal-store.netlify.app/',
 	},
 	{
-		id: 105,
+		id: 107,
 		image: Musicasa,
 		title: 'Musicasa',
 		category: 'Courses',
@@ -75,24 +64,15 @@ const Menu = [
 		demo: 'https://marucomass.github.io/Musicasa-ecommerce/',
 	},
 	{
-		id: 106,
-		image: Strangebox,
-		title: 'Strangebox',
-		category: 'Personal',
-		code: 'https://github.com/MarucoMass/strangebox',
-		demo: 'https://marucomass.github.io/strangebox/',
-	},
-	{
-		id: 107,
+		id: 108,
 		image: Irupe,
 		title: 'Flor de Irupé',
 		category: 'Work',
 		code: 'https://flordeirupe.org/',
 		demo: 'https://flordeirupe.org/',
 	},
-	,
 	{
-		id: 108,
+		id: 109,
 		image: Fp,
 		title: 'Frente Patria',
 		category: 'Work',
@@ -100,52 +80,44 @@ const Menu = [
 		demo: 'https://www.frentepatriafder.net/',
 	},
 	{
-		id: 109,
-		image: OldPortfolio,
-		title: 'My old portfolio',
-		category: 'Personal',
-		code: 'https://github.com/MarucoMass/old-portfolio.git',
-		demo: 'https://marucomass.github.io/old-portfolio/',
-	},
-	{
 		id: 110,
-		image: Calendar,
-		title: 'Calendar',
+		image: Strangebox,
+		title: 'Strangebox',
 		category: 'Personal',
-		code: 'https://github.com/MarucoMass/calendar.git',
-		demo: 'https://marucomass.github.io/calendar/',
+		code: 'https://github.com/MarucoMass/strangebox',
+		demo: 'https://marucomass.github.io/strangebox/',
 	},
 	{
 		id: 111,
-		image: Calculator,
-		title: 'Calculator',
+		image: CaidaLibre,
+		title: 'Caída libre',
 		category: 'Personal',
-		code: 'https://github.com/MarucoMass/calculadora.git',
-		demo: 'https://marucomass.github.io/calculadora/',
+		code: 'https://github.com/MarucoMass/caidaLibre',
+		demo: 'https://marucomass.github.io/caidaLibre/',
 	},
 	{
 		id: 112,
-		image: Expense,
-		title: 'Expense-Tracker',
+		image: TiraTiro,
+		title: 'Tira Tiro',
 		category: 'Personal',
-		code: 'https://github.com/MarucoMass/expense-tracker.git',
-		demo: 'https://marucomass.github.io/expense-tracker/',
+		code: 'https://github.com/MarucoMass/tiratiro',
+		demo: 'https://marucomass.github.io/tiratiro/',
 	},
 	{
 		id: 113,
-		image: Clock,
-		title: 'Clock',
+		image: HastaLasMuelas,
+		title: 'Hasta Las Muelas',
 		category: 'Personal',
-		code: 'https://github.com/MarucoMass/reloj.git',
-		demo: 'https://marucomass.github.io/reloj/',
+		code: 'https://github.com/MarucoMass/hastaLasMuelas',
+		demo: 'https://marucomass.github.io/hastaLasMuelas/',
 	},
 	{
 		id: 114,
-		image: Game,
-		title: 'Rock, Scissors and Paper',
+		image: Scramble,
+		title: 'Word Scramble Game',
 		category: 'Personal',
-		code: 'https://github.com/MarucoMass/piedra-papel-o-tijeras.git',
-		demo: 'https://marucomass.github.io/piedra-papel-o-tijeras/',
+		code: 'https://github.com/MarucoMass/scramble.git',
+		demo: 'https://marucomass.github.io/scramble/',
 	},
 	{
 		id: 115,

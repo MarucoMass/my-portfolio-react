@@ -24,14 +24,6 @@ const Data = [
 		entity: 'Freelance',
 	},
 	{
-		id: 102,
-		category: 'experience',
-		icon: 'icon-briefcase',
-		year: 'July 2021 - October 2021',
-		title: 'Strangebox',
-		entity: 'Games and pwas website we developed with a colleague',
-	},
-	{
 		id: 103,
 		category: 'experience',
 		icon: 'icon-briefcase',
@@ -114,13 +106,21 @@ const Data = [
 	{
 		id: 112,
 		category: 'education',
+		icon: 'icon-education',
+		year: 'July 2021 - October 2021',
+		title: 'Strangebox',
+		entity: 'PWA Games and PWA website we developed with a colleague',
+	},
+	{
+		id: 113,
+		category: 'education',
 		icon: 'icon-graduation',
 		year: 'October 2019',
 		title: 'Learn CSS Course',
 		entity: 'Codecademy',
 	},
 	{
-		id: 113,
+		id: 114,
 		category: 'education',
 		icon: 'icon-graduation',
 		year: '2019 - Present',
@@ -128,11 +128,11 @@ const Data = [
 		entity: 'Platzi, Youtube, Codecademy, Blogs',
 	},
 	{
-		id: 114,
+		id: 115,
 		category: 'education',
 		icon: 'icon-graduation',
 		year: '2014 - 2020',
-		title: 'Advanced student in Law school (Abandoned)',
+		title: 'Advanced student in Law school (not finished)',
 		entity: 'Universidad Nacional de Rosario',
 	},
 ];

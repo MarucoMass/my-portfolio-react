@@ -32,10 +32,8 @@ function About() {
 								the best possible results, I am committed to helping my clients
 								achieve their goals. <br />
 								<br />
-								Whether you need a stunning new website or a custom application,
-								I am here to make it happen. Contact me today and let's discuss
-								how I can help bring your vision to life. Let's work together to
-								create something truly special.
+								Let's work together to
+								create something truly special!
 							</p>
 						</div>
 					</div>

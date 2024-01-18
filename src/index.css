@@ -106,7 +106,7 @@ img {
 		-3px -3px 15px rgba(245, 245, 245, 0.2);
 	border: 1px solid transparent;
 	font-weight: var(--fw-700);
-	transition: 0.3s linear;
+	transition: 0.2s linear;
 	cursor: pointer;
 }
 

@@ -60,7 +60,7 @@ function Particle() {
 						value: 80,
 					},
 					opacity: {
-						value: .5,
+						value: .2,
 					},
 					shape: {
 						type: 'circle',
