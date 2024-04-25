@@ -46,7 +46,7 @@ const Menu = [
 		image: Prospectiva,
 		title: 'Prospectiva',
 		category: 'Work',
-		stack: 'PHP, HTML, CSS, JavaScript',
+		stack: 'PHP, HTML, CSS, JavaScript, jQuery',
 		demo: 'http://prospectiva.tech/',
 	},
 	{
@@ -71,7 +71,7 @@ const Menu = [
 		image: Musicasa,
 		title: 'Musicasa',
 		category: 'Courses',
-		stack: 'HTML, CSS, JavaScript',
+		stack: 'HTML, CSS, SCSS, JavaScript',
 		code: 'https://github.com/MarucoMass/Musicasa-ecommerce.git',
 		demo: 'https://marucomass.github.io/Musicasa-ecommerce/',
 	},
