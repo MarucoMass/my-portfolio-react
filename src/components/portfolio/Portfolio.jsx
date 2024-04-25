@@ -52,7 +52,7 @@ function Portfolio() {
 
 					<div className='work__container grid'>
 						{items.map(item => {
-							const { id, image, title, demo, code, category } = item;
+							const { id, image, title, demo, code, category, stack } = item;
 							return (
 								<div className='work__card' key={id}>
 									<div className='work__thumbnail'>
@@ -61,14 +61,18 @@ function Portfolio() {
 
 									<span className='work__category'>{category}</span>
 									<h3 className='work__title'>{title}</h3>
+									<h4 className='work__subtitle work__category'>{stack}</h4>
 
 									<div className='work__links'>
-										<a
-											href={code}
-											className='work__button btn'
-											target='__blank'>
-											Code
-										</a>
+										{ code  && (
+											<a
+												href={code}
+												className='work__button btn'
+												target='__blank'>
+												Code
+											</a>
+										)}
+
 										<a
 											href={demo}
 											className='work__button btn'

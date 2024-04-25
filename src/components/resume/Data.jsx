@@ -1,5 +1,13 @@
 const Data = [
 	{
+		id: 98,
+		category: 'experience',
+		icon: 'icon-briefcase',
+		year: 'Mar 2024 - Present',
+		title: 'Technical facilitator of "Yo Puedo Programar"',
+		entity: 'Junior Achievement Santa Fe',
+	},
+	{
 		id: 99,
 		category: 'experience',
 		icon: 'icon-briefcase',
@@ -12,7 +20,7 @@ const Data = [
 		category: 'experience',
 		icon: 'icon-briefcase',
 		year: 'Dec 2022 - Present',
-		title: 'Developer',
+		title: 'Web Developer',
 		entity: 'Efecto Digital',
 	},
 	{

@@ -13,15 +13,25 @@ import Fintelligence from '../../assets/fintelligence.jpg';
 import CaidaLibre from '../../assets/caidalibre.jpg';
 import TiraTiro from '../../assets/tiratiro.jpg';
 import HastaLasMuelas from '../../assets/drink.jpg';
+import MDS3D from '../../assets/mds3d.jpg'
 
 const Menu = [
+	{
+		id: 101,
+		image: MDS3D,
+		title: 'MDS3D',
+		category: 'Work',
+		stack: 'PHP, HTML, CSS, JavaScript',
+		demo: 'https://mds3d.com.ar/'
+	},
 	{
 		id: 102,
 		image: Fintelligence,
 		title: 'Fintelligence',
 		category: 'Work',
-		code: 'https://github.com/MarucoMass/fintelligence',
-		demo: 'https://marucomass.github.io/fintelligence/',
+		// code: 'https://github.com/MarucoMass/fintelligence',
+		stack: 'HTML, CSS, JavaScript',
+		demo: 'https://marucomass.github.io/fintelligence/'
 	},
 	{
 		id: 103,
@@ -29,6 +39,7 @@ const Menu = [
 		title: 'Landing Template',
 		category: 'Work',
 		code: 'https://github.com/MarucoMass/Plantilla-Landing.git',
+		stack: 'HTML, CSS, JavaScript',
 		demo: 'https://efectodigital.com.ar/plantilla.html',
 	},
 	{
@@ -36,7 +47,8 @@ const Menu = [
 		image: Prospectiva,
 		title: 'Prospectiva',
 		category: 'Work',
-		code: 'https://github.com/MarucoMass/Prospectiva-OnePage.git',
+		// code: 'https://github.com/MarucoMass/Prospectiva-OnePage.git',
+		stack: 'PHP, HTML, CSS, JavaScript',
 		demo: 'http://prospectiva.tech/',
 	},
 	{
@@ -44,7 +56,8 @@ const Menu = [
 		image: Rpa,
 		title: 'Rpa-Works',
 		category: 'Work',
-		code: 'https://github.com/MarucoMass/rpa-works.git',
+		// code: 'https://github.com/MarucoMass/rpa-works.git',
+		stack: 'PHP, HTML, CSS, JavaScript',
 		demo: 'https://rpa-works.com',
 	},
 	{
@@ -53,6 +66,7 @@ const Menu = [
 		title: 'Pedal Store',
 		category: 'Courses',
 		code: 'https://github.com/MarucoMass/pedal-store.git',
+		stack: 'React JS, CSS',
 		demo: 'https://mariomass-pedal-store.netlify.app/',
 	},
 	{
@@ -60,6 +74,7 @@ const Menu = [
 		image: Musicasa,
 		title: 'Musicasa',
 		category: 'Courses',
+		stack: 'HTML, CSS, JavaScript',
 		code: 'https://github.com/MarucoMass/Musicasa-ecommerce.git',
 		demo: 'https://marucomass.github.io/Musicasa-ecommerce/',
 	},
@@ -68,7 +83,8 @@ const Menu = [
 		image: Irupe,
 		title: 'Flor de Irupé',
 		category: 'Work',
-		code: 'https://flordeirupe.org/',
+		// code: 'https://flordeirupe.org/',
+		stack: 'Wordpress',
 		demo: 'https://flordeirupe.org/',
 	},
 	{
@@ -76,7 +92,8 @@ const Menu = [
 		image: Fp,
 		title: 'Frente Patria',
 		category: 'Work',
-		code: 'https://github.com/MarucoMass/Frente-Patria.git',
+		// code: 'https://github.com/MarucoMass/Frente-Patria.git',
+		stack: 'HTML, CSS, SCSS, JavaScript',
 		demo: 'https://www.frentepatriafder.net/',
 	},
 	{
@@ -85,6 +102,7 @@ const Menu = [
 		title: 'Strangebox',
 		category: 'Personal',
 		code: 'https://github.com/MarucoMass/strangebox',
+		stack: 'HTML, CSS, JavaScript',
 		demo: 'https://marucomass.github.io/strangebox/',
 	},
 	{
@@ -92,6 +110,7 @@ const Menu = [
 		image: CaidaLibre,
 		title: 'Caída libre',
 		category: 'Personal',
+		stack: 'HTML, CSS, JavaScript',
 		code: 'https://github.com/MarucoMass/caidaLibre',
 		demo: 'https://marucomass.github.io/caidaLibre/',
 	},
@@ -100,6 +119,7 @@ const Menu = [
 		image: TiraTiro,
 		title: 'Tira Tiro',
 		category: 'Personal',
+		stack: 'HTML, CSS, JavaScript',
 		code: 'https://github.com/MarucoMass/tiratiro',
 		demo: 'https://marucomass.github.io/tiratiro/',
 	},
@@ -108,6 +128,7 @@ const Menu = [
 		image: HastaLasMuelas,
 		title: 'Hasta Las Muelas',
 		category: 'Personal',
+		stack: 'HTML, CSS, JavaScript',
 		code: 'https://github.com/MarucoMass/hastaLasMuelas',
 		demo: 'https://marucomass.github.io/hastaLasMuelas/',
 	},
@@ -116,6 +137,7 @@ const Menu = [
 		image: Scramble,
 		title: 'Word Scramble Game',
 		category: 'Personal',
+		stack: 'HTML, CSS, JavaScript',
 		code: 'https://github.com/MarucoMass/scramble.git',
 		demo: 'https://marucomass.github.io/scramble/',
 	},
@@ -124,6 +146,7 @@ const Menu = [
 		image: Musmanno,
 		title: 'Musmanno Rock Festival',
 		category: 'Courses',
+		stack: 'HTML, CSS, JavaScript',
 		code: 'https://github.com/MarucoMass/Mangueras-Musmanno-Rock-Festival.git',
 		demo: 'https://marucomass.github.io/Mangueras-Musmanno-Rock-Festival-Massonnat./',
 	},
