@@ -22,7 +22,7 @@ const Menu = [
 		title: 'MDS3D',
 		category: 'Work',
 		stack: 'PHP, HTML, CSS, JavaScript',
-		demo: 'https://mds3d.com.ar/'
+		demo: 'https://mds3d.com.ar/',
 	},
 	{
 		id: 102,
@@ -30,7 +30,7 @@ const Menu = [
 		title: 'Fintelligence',
 		category: 'Work',
 		stack: 'HTML, CSS, JavaScript',
-		demo: 'https://marucomass.github.io/fintelligence/'
+		demo: 'https://marucomass.github.io/fintelligence/',
 	},
 	{
 		id: 103,
@@ -62,7 +62,7 @@ const Menu = [
 		image: Pedal,
 		title: 'Pedal Store',
 		category: 'Courses',
-		code: 'https://github.com/MarucoMass/pedal-store.git',
+		code: 'https://github.com/MarucoMass/PedalStore-ReactJS',
 		stack: 'React JS, CSS',
 		demo: 'https://mariomass-pedal-store.netlify.app/',
 	},
